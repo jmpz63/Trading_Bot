@@ -1,0 +1,14 @@
+# Trading Strategy Configuration
+
+momentum_strategy:
+  enabled: true
+  timeframe: "1h"
+  rsi_period: 14
+  rsi_overbought: 70
+  rsi_oversold: 30
+  
+mean_reversion_strategy:
+  enabled: false
+  timeframe: "15m" 
+  bollinger_period: 20
+  bollinger_std: 2

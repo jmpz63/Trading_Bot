@@ -1,0 +1,91 @@
+# Trading Bot Main Configuration
+# Edit these settings to customize your trading bot
+
+# General Settings
+app_name: "APM Trading Bot"
+version: "1.0.0"
+environment: "development"  # development, testing, production
+debug: true
+
+# Trading Settings
+trading:
+  enabled: false  # Set to true to enable live trading (start with false!)
+  paper_trading: true  # Use paper trading for testing
+  default_exchange: "binance"
+  base_currency: "USDT"
+  
+  # Risk Management
+  max_portfolio_risk: 0.02  # Maximum 2% portfolio risk per trade
+  max_position_size: 0.1    # Maximum 10% of portfolio per position
+  stop_loss_percentage: 0.05 # 5% stop loss
+  take_profit_percentage: 0.15 # 15% take profit
+  
+  # Position Limits
+  max_open_positions: 5
+  min_trade_amount: 10.0    # Minimum trade size in base currency
+
+# Data Settings
+data:
+  update_interval: 60       # Seconds between data updates
+  historical_days: 365      # Days of historical data to maintain
+  timeframes:
+    - "1m"   # 1 minute
+    - "5m"   # 5 minutes  
+    - "15m"  # 15 minutes
+    - "1h"   # 1 hour
+    - "4h"   # 4 hours
+    - "1d"   # 1 day
+
+# Database Settings
+database:
+  type: "sqlite"  # sqlite, postgresql
+  sqlite_path: "data/trading_bot.db"
+  # postgresql_url: "postgresql://user:pass@localhost/trading_bot"
+
+# Logging Settings
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file_path: "data/logs/trading_bot.log"
+  max_file_size: "10MB"
+  backup_count: 5
+  console_output: true
+
+# Notification Settings
+notifications:
+  enabled: true
+  email:
+    enabled: false
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    username: ""
+    password: ""  # Use app password for Gmail
+    to_email: ""
+  
+  discord:
+    enabled: false
+    webhook_url: ""
+  
+  telegram:
+    enabled: false
+    bot_token: ""
+    chat_id: ""
+
+# API Settings
+api:
+  host: "localhost"
+  port: 8000
+  reload: true  # Auto-reload on code changes (development only)
+
+# Backtesting Settings
+backtesting:
+  start_date: "2023-01-01"
+  end_date: "2024-01-01"
+  initial_balance: 10000.0
+  commission: 0.001  # 0.1% commission per trade
+  slippage: 0.0005   # 0.05% slippage
+
+# Security Settings
+security:
+  api_key_encryption: true
+  session_timeout: 3600  # 1 hour
+  max_login_attempts: 5
