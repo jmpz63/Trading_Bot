@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-10-04T17:32:34.952058",
+    "cash": 10000,
+    "stock_value": 0,
+    "total_portfolio_value": 10000,
+    "total_pnl": 0,
+    "total_pnl_pct": 0.0,
+    "positions": {},
+    "starting_capital": 10000,
+    "realized_pnl": 0,
+    "unrealized_pnl": 0,
+    "total_trades": 0,
+    "open_positions": 0,
+    "win_rate": 0,
+    "cash_utilization": 0.0,
+    "date": "2025-10-04"
+  }
+]

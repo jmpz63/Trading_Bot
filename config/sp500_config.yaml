@@ -1,0 +1,124 @@
+# S&P 500 Trading Configuration
+# Configuration for traditional stock market trading
+
+# Market Data Sources
+market_data:
+  primary_source: "yahoo_finance"
+  backup_sources: ["alpha_vantage", "iex_cloud"]
+  update_frequency: 60  # seconds
+  
+  # Yahoo Finance settings
+  yahoo_finance:
+    enabled: true
+    timeout: 30
+    retry_attempts: 3
+    
+  # Alpha Vantage (optional - requires API key)
+  alpha_vantage:
+    enabled: false
+    api_key: "${ALPHA_VANTAGE_API_KEY}"
+    
+# S&P 500 Symbols
+symbols:
+  # S&P 500 ETFs
+  etfs:
+    - "SPY"   # SPDR S&P 500 ETF (most liquid)
+    - "VOO"   # Vanguard S&P 500 ETF (low cost)
+    - "IVV"   # iShares Core S&P 500 ETF
+    
+  # S&P 500 Index
+  indices:
+    - "^GSPC"  # S&P 500 Index
+    
+  # Major S&P 500 Stocks (top 10 by market cap)
+  major_stocks:
+    - "AAPL"  # Apple Inc.
+    - "MSFT"  # Microsoft Corporation  
+    - "GOOGL" # Alphabet Inc.
+    - "AMZN"  # Amazon.com Inc.
+    - "TSLA"  # Tesla Inc.
+    - "META"  # Meta Platforms Inc.
+    - "NVDA"  # NVIDIA Corporation
+    - "JPM"   # JPMorgan Chase & Co.
+    - "JNJ"   # Johnson & Johnson
+    - "V"     # Visa Inc.
+
+# Trading Settings
+trading:
+  # Market Hours (Eastern Time)
+  market_hours:
+    open: "09:30"
+    close: "16:00"
+    timezone: "US/Eastern"
+    
+  # Trading only during market hours
+  trade_only_market_hours: true
+  
+  # Minimum position sizes
+  min_position_value: 100.0  # $100 minimum position
+  min_shares: 1              # Minimum 1 share
+  
+  # S&P 500 specific risk management
+  max_position_size_etf: 0.20    # 20% max in ETFs
+  max_position_size_stock: 0.05  # 5% max in individual stocks
+  
+  # Strategy parameters
+  momentum_threshold: 2.0    # 2% momentum for signals
+  volume_threshold: 1000000  # Minimum daily volume
+  
+# Broker Integration Options
+brokers:
+  # Paper Trading (Always start here)
+  paper_trading:
+    enabled: true
+    initial_balance: 100000.0  # $100k virtual money
+    
+  # Real Brokers (require setup)
+  alpaca:
+    enabled: false
+    api_key: "${ALPACA_API_KEY}"
+    secret_key: "${ALPACA_SECRET_KEY}"
+    base_url: "https://paper-api.alpaca.markets"  # Paper trading URL
+    
+  interactive_brokers:
+    enabled: false
+    # TWS API integration (complex setup required)
+    
+  td_ameritrade:
+    enabled: false
+    # TDA API (being discontinued, migrating to Schwab)
+    
+  schwab:
+    enabled: false
+    # Charles Schwab API (new, requires application)
+
+# Strategy Configuration
+strategies:
+  sp500_momentum:
+    enabled: true
+    lookback_period: 5  # days
+    momentum_threshold: 2.0  # percent
+    
+  sp500_mean_reversion:
+    enabled: false
+    lookback_period: 20  # days
+    std_dev_threshold: 2.0
+    
+  sp500_breakout:
+    enabled: false
+    breakout_period: 50  # days
+    volume_confirmation: true
+
+# Risk Management
+risk_management:
+  # Portfolio limits
+  max_portfolio_exposure: 0.95  # 95% max invested
+  cash_reserve: 0.05            # 5% cash reserve
+  
+  # Stop losses
+  stop_loss_percent: 0.03       # 3% stop loss
+  trailing_stop: true           # Use trailing stops
+  
+  # Position sizing
+  position_size_method: "kelly_criterion"  # or "fixed_percent", "volatility_based"
+  max_positions: 10             # Maximum concurrent positions

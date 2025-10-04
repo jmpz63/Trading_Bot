@@ -3,9 +3,14 @@
 
 # Market data and exchange integration
 ccxt>=4.0.0              # Cryptocurrency exchange library
-yfinance>=0.2.0          # Yahoo Finance data
+yfinance>=0.2.0          # Yahoo Finance data (S&P 500, stocks)
 pandas>=2.0.0            # Data manipulation
 numpy>=1.24.0            # Numerical computing
+
+# S&P 500 and Traditional Markets
+alpaca-trade-api>=3.0.0  # Alpaca broker API (commission-free stocks)
+# ib-insync>=0.9.86       # Interactive Brokers API (uncomment if using IBKR)
+# schwab-api>=1.0.0       # Charles Schwab API (uncomment if using Schwab)
 
 # Technical analysis
 TA-Lib>=0.4.25           # Technical analysis library
