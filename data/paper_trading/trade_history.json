@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "trade_id": "BTC-USD_20251004_174602",
+    "timestamp": "2025-10-04T17:46:02.138891",
+    "symbol": "BTC-USD",
+    "action": "BUY",
+    "shares": 0.008175506145266099,
+    "price": 122316.5859375,
+    "trade_value": 1000.0000000000001,
+    "commission": 0,
+    "cash_after": 9000.0,
+    "signal_info": {}
+  },
+  {
+    "trade_id": "BNB-USD_20251004_174602",
+    "timestamp": "2025-10-04T17:46:02.196579",
+    "symbol": "BNB-USD",
+    "action": "BUY",
+    "shares": 0.6246921943342787,
+    "price": 1152.567626953125,
+    "trade_value": 720.0,
+    "commission": 0,
+    "cash_after": 8280.0,
+    "signal_info": {}
+  },
+  {
+    "trade_id": "TSLA_20251004_174951",
+    "timestamp": "2025-10-04T17:49:51.136854",
+    "symbol": "TSLA",
+    "action": "BUY",
+    "shares": 1,
+    "price": 429.8299865722656,
+    "trade_value": 429.8299865722656,
+    "commission": 0,
+    "cash_after": 7850.170013427734,
+    "signal_info": {},
+    "strategy_category": {
+      "primary_strategy": "Swing Trading",
+      "secondary_strategies": [],
+      "expected_hold_days": 6,
+      "expected_hold_period": "6 days",
+      "profit_target_pct": 3.0,
+      "stop_loss_pct": -1.5,
+      "risk_tolerance": "Medium",
+      "market_focus": "Multi-day trends",
+      "strategy_description": "Hold 2-10 days, capture short-term price swings",
+      "rationale": "Technology stock - growth-oriented | Moderate signal (Score: 60.0) - cautious approach | Multi-day price pattern - capture swing moves"
+    }
+  },
+  {
+    "trade_id": "BTC-USD_20251004_175325",
+    "timestamp": "2025-10-04T17:53:25.376301",
+    "symbol": "BTC-USD",
+    "action": "BUY",
+    "shares": 0.006415170539214754,
+    "price": 122368.84375,
+    "trade_value": 785.0170013427735,
+    "commission": 0,
+    "cash_after": 7065.153012084961,
+    "signal_info": {},
+    "strategy_category": {
+      "primary_strategy": "Position Trading",
+      "secondary_strategies": [],
+      "expected_hold_days": 35,
+      "expected_hold_period": "1 month",
+      "profit_target_pct": 15.0,
+      "stop_loss_pct": -9.0,
+      "risk_tolerance": "Medium-High",
+      "market_focus": "Medium-term trends",
+      "strategy_description": "Hold 2-8 weeks, ride intermediate trends",
+      "rationale": "Cryptocurrency - high volatility asset class | Moderate signal (Score: 60.0) - cautious approach | Medium-term trend - ride intermediate moves"
+    }
+  },
+  {
+    "trade_id": "BNB-USD_20251004_175325",
+    "timestamp": "2025-10-04T17:53:25.435638",
+    "symbol": "BNB-USD",
+    "action": "BUY",
+    "shares": 0.4901204822261386,
+    "price": 1153.2108154296875,
+    "trade_value": 565.2122409667969,
+    "commission": 0,
+    "cash_after": 6499.940771118164,
+    "signal_info": {},
+    "strategy_category": {
+      "primary_strategy": "Position Trading",
+      "secondary_strategies": [],
+      "expected_hold_days": 35,
+      "expected_hold_period": "1 month",
+      "profit_target_pct": 15.0,
+      "stop_loss_pct": -9.0,
+      "risk_tolerance": "Medium-High",
+      "market_focus": "Medium-term trends",
+      "strategy_description": "Hold 2-8 weeks, ride intermediate trends",
+      "rationale": "Cryptocurrency - high volatility asset class | Moderate signal (Score: 60.0) - cautious approach | Medium-term trend - ride intermediate moves"
+    }
+  }
+]

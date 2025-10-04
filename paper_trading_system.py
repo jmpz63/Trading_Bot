@@ -9,6 +9,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional
 import yfinance as yf
+from trade_categorization import TradeCategorizer
 
 class PaperTradingPortfolio:
     """
@@ -28,6 +29,9 @@ class PaperTradingPortfolio:
         
         # Load existing data if available
         self.load_portfolio_data()
+        
+        # Initialize trade categorizer
+        self.trade_categorizer = TradeCategorizer()
     
     @property
     def cash_balance(self):
@@ -89,6 +93,9 @@ class PaperTradingPortfolio:
             if self.positions[symbol]['shares'] == 0:
                 del self.positions[symbol]
         
+        # Categorize trade strategy
+        strategy_info = self.categorize_trade_strategy(symbol, signal_info)
+        
         # Record trade
         trade_record = {
             'trade_id': trade_id,
@@ -100,7 +107,8 @@ class PaperTradingPortfolio:
             'trade_value': trade_value,
             'commission': commission,
             'cash_after': self.current_cash,
-            'signal_info': signal_info or {}
+            'signal_info': signal_info or {},
+            'strategy_category': strategy_info
         }
         
         self.trade_history.append(trade_record)
@@ -172,9 +180,13 @@ class PaperTradingPortfolio:
             ticker = yf.Ticker(symbol)
             current_price = ticker.history(period="1d")['Close'].iloc[-1]
             
-            # Calculate shares (no fractional shares)
-            shares = int(dollar_amount / current_price)
-            actual_cost = shares * current_price
+            # For crypto, allow fractional shares
+            if '-USD' in symbol:  # Crypto
+                shares = dollar_amount / current_price
+                actual_cost = shares * current_price
+            else:  # Stocks - no fractional shares
+                shares = int(dollar_amount / current_price)
+                actual_cost = shares * current_price
             
             if actual_cost > self.current_cash:
                 return {
@@ -186,9 +198,11 @@ class PaperTradingPortfolio:
             trade_result = self.place_trade(symbol, 'BUY', shares, current_price)
             
             if trade_result['status'] == 'SUCCESS':
+                asset_type = "crypto" if '-USD' in symbol else "shares"
+                shares_text = f"{shares:.6f}" if '-USD' in symbol else f"{int(shares)}"
                 return {
                     'success': True,
-                    'message': f'Bought {shares} shares of {symbol} @ ${current_price:.2f}',
+                    'message': f'Bought {shares_text} {asset_type} of {symbol} @ ${current_price:.2f}',
                     'shares': shares,
                     'price': current_price,
                     'cost': actual_cost
@@ -204,6 +218,13 @@ class PaperTradingPortfolio:
                 'success': False,
                 'message': f'Error buying {symbol}: {e}'
             }
+    
+    def buy_crypto(self, symbol: str, dollar_amount: float) -> Dict:
+        """Buy cryptocurrency with specified dollar amount"""
+        if not symbol.endswith('-USD'):
+            symbol = f"{symbol}-USD"
+        
+        return self.buy_stock(symbol, dollar_amount)
     
     def sell_stock(self, symbol: str, shares: int) -> Dict:
         """Sell specified shares of stock"""
@@ -252,6 +273,23 @@ class PaperTradingPortfolio:
         # This is a basic implementation - in a real system you'd track daily snapshots
         current_value = self.get_portfolio_value()
         return current_value - 10000  # Assuming we started today
+    
+    def categorize_trade_strategy(self, symbol: str, signal_info: Dict = None) -> Dict:
+        """Categorize trade by strategy type"""
+        
+        # Default analysis if not provided
+        if signal_info is None:
+            signal_info = {'final_score': 60, 'confidence': 'MEDIUM'}
+        
+        # Default market context
+        market_context = {'regime': 'BULL'}
+        
+        # Use trade categorizer
+        strategy_category = self.trade_categorizer.categorize_trade_intent(
+            symbol, signal_info, market_context
+        )
+        
+        return strategy_category
     
     def get_current_portfolio_value(self) -> Dict:
         """Calculate current portfolio value with real-time prices"""

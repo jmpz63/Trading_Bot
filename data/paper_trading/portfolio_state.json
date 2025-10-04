@@ -1,6 +1,25 @@
 {
   "starting_capital": 10000,
-  "current_cash": 10000,
-  "positions": {},
-  "last_updated": "2025-10-04T17:32:34.951803"
+  "current_cash": 6499.940771118164,
+  "positions": {
+    "BTC-USD": {
+      "shares": 0.014590676684480853,
+      "avg_price": 122339.56244410374,
+      "entry_date": "2025-10-04T17:46:02.138886",
+      "entry_reason": "Manual trade"
+    },
+    "BNB-USD": {
+      "shares": 1.1148126765604172,
+      "avg_price": 1152.8504007795473,
+      "entry_date": "2025-10-04T17:46:02.196574",
+      "entry_reason": "Manual trade"
+    },
+    "TSLA": {
+      "shares": 1,
+      "avg_price": 429.8299865722656,
+      "entry_date": "2025-10-04T17:49:51.136820",
+      "entry_reason": "Manual trade"
+    }
+  },
+  "last_updated": "2025-10-04T17:53:25.435805"
 }
