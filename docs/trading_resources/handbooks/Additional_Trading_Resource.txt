@@ -1,0 +1,1219 @@
+P1: OTA/XYZ
+JWBT634-fm
+
+P2: ABC
+JWBT634-Grimes
+
+May 11, 2012
+
+8:28
+
+Printer: Hamilton Printing
+
+P1: OTA/XYZ
+JWBT634-fm
+
+P2: ABC
+JWBT634-Grimes
+
+May 11, 2012
+
+8:28
+
+Printer: Hamilton Printing
+
+The Art and
+Science of
+Technical
+Analysis
+
+P1: OTA/XYZ
+JWBT634-fm
+
+P2: ABC
+JWBT634-Grimes
+
+May 11, 2012
+
+8:28
+
+Printer: Hamilton Printing
+
+Founded in 1807, John Wiley & Sons is the oldest independent publishing company in the
+United States. With offices in North America, Europe, Australia, and Asia, Wiley is globally committed to developing and marketing print and electronic products and services
+for our customers’ professional and personal knowledge and understanding.
+The Wiley Trading series features books by traders who have survived the market’s ever changing temperament and have prospered—some by reinventing systems,
+others by getting back to basics. Whether a novice trader, professional, or somewhere
+in-between, these books will provide the advice and strategies needed to prosper today
+and well into the future.
+For a list of available titles, please visit our Web site at www.WileyFinance.com.
+
+P1: OTA/XYZ
+JWBT634-fm
+
+P2: ABC
+JWBT634-Grimes
+
+May 11, 2012
+
+8:28
+
+Printer: Hamilton Printing
+
+The Art and
+Science of
+Technical
+Analysis
+Market Structure, Price Action,
+and Trading Strategies
+
+ADAM GRIMES
+
+John Wiley & Sons, Inc.
+
+P1: OTA/XYZ
+JWBT634-fm
+
+P2: ABC
+JWBT634-Grimes
+
+May 11, 2012
+
+8:28
+
+Printer: Hamilton Printing
+
+C 2012 by Adam Grimes. All rights reserved.
+Copyright 
+
+Published by John Wiley & Sons, Inc., Hoboken, New Jersey.
+Published simultaneously in Canada.
+No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by
+any means, electronic, mechanical, photocopying, recording, scanning, or otherwise, except as permitted under Section 107 or 108 of the 1976 United States Copyright Act, without either the prior written permission of
+the Publisher, or authorization through payment of the appropriate per-copy fee to the Copyright Clearance
+Center, Inc., 222 Rosewood Drive, Danvers, MA 01923, (978) 750-8400, fax (978) 646-8600, or on the Web at
+www.copyright.com. Requests to the Publisher for permission should be addressed to the Permissions Department, John Wiley & Sons, Inc., 111 River Street, Hoboken, NJ 07030, (201) 748-6011, fax (201) 748-6008, or
+online at http://www.wiley.com/go/permissions.
+Limit of Liability/Disclaimer of Warranty: While the publisher and author have used their best efforts in preparing this book, they make no representations or warranties with respect to the accuracy or completeness of the
+contents of this book and specifically disclaim any implied warranties of merchantability or fitness for a particular purpose. No warranty may be created or extended by sales representatives or written sales materials.
+The advice and strategies contained herein may not be suitable for your situation. You should consult with a
+professional where appropriate. Neither the publisher nor author shall be liable for any loss of profit or any
+other commercial damages, including but not limited to special, incidental, consequential, or other damages.
+Charts generated with the TradeStation platform and code in EasyLanguage format are used with permission.
+
+C TradeStation Technologies, Inc. 2001–2011, All rights reserved.
+
+For general information on our other products and services or for technical support, please contact our Customer Care Department within the United States at (800) 762-2974, outside the United States at (317) 572-3993
+or fax (317) 572-4002.
+Wiley also publishes its books in a variety of electronic formats. Some content that appears in print may not be
+available in electronic books. For more information about Wiley products, visit our web site at www.wiley.com.
+Library of Congress Cataloging-in-Publication Data:
+Grimes, Adam, 1973–
+The art and science of technical analysis : market structure, price action, and trading strategies /
+Adam Grimes.
+pages cm. – (Wiley trading series ; 544)
+Includes bibliographical references and index.
+ISBN 978-1-118-11512-1 (cloth); ISBN 978-1-118-22427-4 (ebk);
+ISBN 978-1-118-23814-1 (ebk); ISBN 978-1-118-26247-4 (ebk)
+1. Investment analysis. I. Title.
+HG4529.G75 2012
+332.63 2042–dc23
+2012000874
+
+Printed in the United States of America
+10 9 8 7 6 5 4 3 2 1
+
+P1: OTA/XYZ
+JWBT634-fm
+
+P2: ABC
+JWBT634-Grimes
+
+May 11, 2012
+
+8:28
+
+Printer: Hamilton Printing
+
+To my wife Betsy. Without her unfailing love and support
+I could have accomplished nothing.
+
+P1: OTA/XYZ
+JWBT634-fm
+
+P2: ABC
+JWBT634-Grimes
+
+May 11, 2012
+
+8:28
+
+Printer: Hamilton Printing
+
+P1: OTA/XYZ
+JWBT634-fm
+
+P2: ABC
+JWBT634-Grimes
+
+May 11, 2012
+
+8:28
+
+Printer: Hamilton Printing
+
+Contents
+
+PART I
+
+Preface
+
+xi
+
+Acknowledgments
+
+xv
+
+The Foundation of Technical Analysis
+
+CHAPTER 1 The Trader’s Edge
+
+3
+
+Deﬁning a Trading Edge
+Finding and Developing Your Edge
+General Principles of Chart Reading
+Indicators
+The Two Forces: Toward a New Understanding
+of Market Action
+Price Action and Market Structure on Charts
+Charting by Hand
+
+4
+7
+8
+12
+
+CHAPTER 2 The Market Cycle and the Four Trades
+
+31
+
+Wyckoﬀ’s Market Cycle
+The Four Trades
+Summary
+
+PART II
+
+13
+15
+28
+
+32
+40
+45
+
+Market Structure
+
+CHAPTER 3 On Trends
+The Fundamental Pattern
+Trend Structure
+A Deeper Look at Pullbacks: The Quintessential Trend
+Trading Pattern
+
+49
+49
+51
+65
+
+vii
+
+P1: OTA/XYZ
+JWBT634-fm
+
+P2: ABC
+JWBT634-Grimes
+
+May 11, 2012
+
+8:28
+
+Printer: Hamilton Printing
+
+viii
+
+CONTENTS
+
+Trend Analysis
+Summary
+
+CHAPTER 4 On Trading Ranges
+Support and Resistance
+Trading Ranges as Functional Structures
+Summary
+
+CHAPTER 5 Interfaces between Trends and Ranges
+Breakout Trade: Trading Range to Trend
+Trend to Trading Range
+Trend to Opposite Trend (Trend Reversal)
+Trend to Same Trend (Failure of Trend Reversal)
+Summary
+
+PART III
+
+77
+95
+
+97
+97
+113
+120
+
+121
+122
+134
+137
+143
+145
+
+Trading Strategies
+
+CHAPTER 6 Practical Trading Templates
+Failure Test
+Pullback, Buying Support or Shorting Resistance
+Pullback, Entering Lower Time Frame Breakout
+Trading Complex Pullbacks
+The Anti
+Breakouts, Entering in the Preceding Base
+Breakouts, Entering on First Pullback Following
+Failed Breakouts
+Summary
+
+CHAPTER 7 Tools for Confirmation
+The Moving Average—The Still Center
+Channels: Emotional Extremes
+Indicators: MACD
+Multiple Time Frame Analysis
+
+149
+150
+154
+162
+165
+170
+174
+181
+183
+186
+
+189
+190
+195
+202
+213
+
+CHAPTER 8 Trade Management
+
+231
+
+Placing the Initial Stop
+Setting Price Targets
+
+232
+235
+
+P1: OTA/XYZ
+JWBT634-fm
+
+P2: ABC
+JWBT634-Grimes
+
+May 11, 2012
+
+8:28
+
+Printer: Hamilton Printing
+
+ix
+
+Contents
+
+CHAPTER 9
+
+Active Management
+Portfolio Considerations
+Practical Issues
+
+240
+251
+253
+
+Risk Management
+
+263
+
+Risk and Position Sizing
+Theoretical Perspectives on Risk
+Misunderstood Risk
+Practical Risks in Trading
+Summary
+
+263
+279
+282
+283
+290
+
+CHAPTER 10 Trade Examples
+Trend Continuation
+Trend Termination
+Failure Test Failures
+Trading Parabolic Climaxes
+The Anti
+Trading at Support and Resistance
+Summary
+
+PART IV
+
+291
+293
+313
+319
+323
+327
+336
+343
+
+The Individual, Self-Directed Trader
+
+CHAPTER 11 The Trader’s Mind
+Psychological Challenges of the Marketplace
+Evolutionary Adaptations
+Cognitive Biases
+The Random Reinforcement Problem
+Emotions: The Enemy Within
+Intuition
+Flow
+Practical Psychology
+Summary
+
+CHAPTER 12 Becoming a Trader
+The Process
+Record Keeping
+Statistical Analysis of Trading Results
+Summary
+
+347
+348
+349
+353
+356
+357
+360
+364
+367
+372
+
+375
+376
+385
+388
+397
+
+P1: OTA/XYZ
+JWBT634-fm
+
+P2: ABC
+JWBT634-Grimes
+
+May 11, 2012
+
+8:28
+
+Printer: Hamilton Printing
+
+x
+
+CONTENTS
+
+APPENDIX A
+
+Trading Primer
+
+399
+
+APPENDIX B
+
+A Deeper Look at Moving Averages
+and the MACD
+
+409
+
+Sample Trade Data
+
+425
+
+Glossary
+
+427
+
+Bibliography
+
+443
+
+About the Author
+
+447
+
+Index
+
+449
+
+APPENDIX C
+
+P1: OTA/XYZ
+P2: ABC
+JWBT634-bpreface
+JWBT634-Grimes
+
+May 10, 2012
+
+11:23
+
+Printer: Hamilton Printing
+
+Preface
+
+he book you are holding in your hands is the product of nearly two decades of my
+study and experience as a trader, covering the full span of actively traded markets
+and time frames. I owe much to authors and traders who have come before me,
+for no one produces anything significant in a vacuum. I would not have been successful
+without the help and guidance of my mentors, but I learned many of the lessons here
+from my own mistakes. In some ways, this work represents a radical break from many
+of the books that have preceded it, and I hope it encourages you to question much of the
+traditional thinking of technical analysis.
+This book does not present a rigid system to be strictly followed, nor a set of setups
+and patterns that can be assembled at the trader’s whim. Rather, it offers a comprehensive approach to the problems of technically motivated, directional trading. The book is
+structured to be read from beginning to end, but individual sections and chapters stand
+on their own. Through the entire work, deliberate repetition of important concepts helps
+to build a complete perspective on many of the problems traders face. The tools and
+techniques must be adapted to the trader’s personality and business situation, but most
+will find a firm foundation between these covers.
+There are some underlying themes, perhaps not expressed explicitly, that tie this
+work together, and they may be surprising to many readers: Trading is hard. Markets
+are extremely competitive. They are usually very close to efficient, and most observed
+price movements are random. It is therefore exceedingly difficult to derive a method
+that makes superior risk-adjusted profits, and it is even more difficult to successfully
+apply such a method in actual trading. Last, it is essential to have a verifiable edge in
+the markets—otherwise no consistent profits are possible. This approach sets this work
+apart from the majority of trading books published, which suggest that simple patterns
+and proper psychology can lead a trader to impressive profits. Perhaps this is possible,
+but I have never seen it work in actual practice.
+This book is divided into four parts:
+
+T
+
+r Part One begins with a look at some of the probability theory supporting the concepts of successful trading. Next comes an in-depth look at a specific approach to
+chart reading that focuses on clarity and consistency lays the foundation for building and understanding of price patterns in markets. This section concludes with an
+
+xi
+
+P1: OTA/XYZ
+P2: ABC
+JWBT634-bpreface
+JWBT634-Grimes
+
+xii
+
+May 10, 2012
+
+11:23
+
+Printer: Hamilton Printing
+
+PREFACE
+
+overview of the Wyckoff market cycle, which is already well known in the literature
+of technical analysis.
+r Part Two focuses on the details of trends, trading ranges, and critically, the transitions from one to the other in considerable detail. This is a deep look at the underlying foundation of price movements, and there is information here that, to my
+knowledge, has never appeared in print before.
+r Part Three might appear, at first glance, to be the meat of this book, as it includes
+specific trading patterns and examples of those patterns applied to real markets. It
+also advocates a way of looking at indicators and other confirming factors that requires a deep understanding of the nuances of these tools. One of the key elements
+of any trading plan is how the trader sizes the trade and manages the position as it
+develops; these elements are also covered in considerable depth. Much attention is
+devoted to the many risks traders will encounter, both from the market and from
+themselves. Though most traders are going to be tempted to turn directly to this section, remember that these patterns are only the tip of the spear, and they are meaningless unless they are placed within the context provided by Parts One and Two.
+r Part Four is specifically written for the individual trader, and begins by focusing on
+elements of psychology such as cognitive biases and issues of emotional control.
+Chapter 11 takes a look at many of the challenges developing traders typically face.
+Though it is impossible to reduce the trader development process to a one-size-fitsall formula, the majority of traders struggle with the same issues. Most traders fail
+because they do not realize that the process of becoming a trader is a long one,
+and they are not prepared to make the commitment. This section concludes with a
+look at some performance analysis tools that can help both the developing and the
+established trader to track key performance metrics and to target problems before
+they have a serious impact on the bottom line.
+r Last, there are three appendixes in this work. The first appendix is a trading primer
+that will be useful for developing traders or for managers who do not have a familiarity with the language used by traders. Like any discipline, trading has its own idioms and lingo, an understanding of which is important for effective communication.
+The second expands on the some specific details and quirks of moving averages the
+MACD, which are used extensively in other sections of this book. The last appendix
+simply contains a list of trade data used in the performance analysis of Part Four.
+This book is written for two distinct groups of traders. It is overtly addressed to
+the individual, self-directed trader, either trading for his or her own account or who has
+exclusive trading authority over a number of client accounts. The self-directed trader
+will find many sections specifically addressed to the struggles he or she faces, and to the
+errors he or she is likely to make along the way. Rather than focusing on arcane concepts
+and theories, this trader needs to learn to properly read a chart, and most importantly, to
+understand the emerging story of supply and demand as it plays out through the patterns
+in the market.
+
+P1: OTA/XYZ
+P2: ABC
+JWBT634-bpreface
+JWBT634-Grimes
+
+Preface
+
+May 10, 2012
+
+11:23
+
+Printer: Hamilton Printing
+
+xiii
+
+Though this book is primarily written for that self-directed trader, there is also much
+information that will be valuable to a second group of traders and managers who do not
+approach markets from a technical perspective or who make decisions within an institutional framework. For these traders, some of the elements such as trader psychology
+may appear, at first glance, to be less relevant, but they provide a context for all market action. These traders will also find new perspectives on risk management, position
+sizing, and pattern analysis that may be able to inform their work in different areas.
+The material in this book is complex; repeated exposure and rereading of certain
+sections will be an essential part of the learning process for most traders. In addition, the
+size of this book may be daunting to many readers. Once again, the book is structured to
+be read and absorbed from beginning to end. Themes and concepts are developed and
+revisited, and repetition is used to reinforce important ideas, but it may also be helpful
+to have a condensed study plan for some readers. Considering the two discrete target
+audiences, I would suggest the following plans:
+
+r Both the individual and the institutional trader should page through the entire
+book, reading whatever catches their interest. Each chapter has been made as selfcontained as possible, while trying to keep redundancy to an absolute minimum.
+r After an initial quick read, the individual trader should carefully read Chapters 1 and
+2, which provide a foundation for everything else. This trader should probably next
+read Part Four (Chapters 11 and 12) in depth, paying particular attention to the elements of the trader development process. Next, turn to Chapters 6 and 10, which
+focus on often-misunderstood aspects of risk and position sizing. Two important aspects of the book are missed on this first read: in-depth analysis of market structure
+and the use of confirming tools in setting up and managing actual trades. These are
+topics for deeper investigation once the initial material has been assimilated.
+r For the institutional trader, Chapter 1 is also a logical follow-up to a quick read.
+Next, Chapter 2 would provide a good background and motivation for the entire
+discipline of technical analysis. Chapters 8 and 9 will likely be very interesting to this
+trader. For managers who are used to thinking of risk in a portfolio context, there are
+important lessons to be learned from a tactical/technical approach to position and
+risk management. Last, many of these readers will have an academic background.
+Chapters 2 through 5 would round out this trader’s understanding of evolving market
+structure.
+Following both of these study plans, it is advisable to then begin again from the
+beginning, or perhaps to turn to the parts of the book not covered in these shorter plans
+and pick up what you have missed. Intellectually, the material can be assimilated fairly
+quickly, but flawless application may remain elusive for some time. Additional materials
+supporting this book, including a blog updated with examples and trades drawn from
+current market action, are available at my web site and blog, www.adamhgrimes.com.
+
+P1: OTA/XYZ
+P2: ABC
+JWBT634-bpreface
+JWBT634-Grimes
+
+xiv
+
+May 10, 2012
+
+11:23
+
+Printer: Hamilton Printing
+
+PREFACE
+
+The title of this book is The Art and Science of Technical Analysis. Science deals primarily with elements that are quantifiable and testable. The process of teaching a science
+usually focuses on the development of a body of knowledge, procedures, and approaches
+to data—the precise investigation of what is known and knowable. Art is often seen as
+more subjective and imprecise, but this is not entirely correct. In reality, neither can exist
+without the other. Science must deal with the philosophical and epistemological issues
+of the edges of knowledge, and scientific progress depends on inductive leaps as much
+as logical steps. Art rests on a foundation of tools and techniques that can and should be
+scientifically quantified, but it also points to another mode of knowing that stands somewhat apart from the usual procedures of logic. The two depend on each other: Science
+without Art is sterile; Art without Science is soft and incomplete. Nowhere is this truer
+than in the study of modern financial markets.
+ADAM GRIMES
+September 2011
+New York, New York
+
+P1: OTA/XYZ
+JWBT634-back
+
+P2: ABC
+JWBT634-Grimes
+
+May 10, 2012
+
+7:15
+
+Printer: Hamilton Printing
+
+Acknowledgments
+irst, to Linda Raschke: I owe you a debt I can never repay—who would have
+thought your kindness that began with answering a simple e-mail so many years
+ago would have had such a profound impact on someone’s life?
+Jose Palau, you played a seminal role in helping me crystallize the ideas for this
+book. There were times in our arguments that I wanted to punch you, and I’m sure it was
+mutual. In the end, much of what is good in this book came from those discussions, and,
+as you said, “there is no spoon.”
+There have been many others along the way who have challenged my thinking
+with new ideas and helped to drive out imprecision and errors in my trading. To Larry
+Williams, Mark Fisher, Chris Terry, Ralph Vince, Chuck LeBeau, Victor Niederhoffer,
+Michael Gunther, Louis Hazan, Mark D. Cook, David McCracken, Doug Zalesky, and
+Andrew Barber, thank you. Andrew Karolyi and Ingrid Werner, you expanded my thinking and opened my mind to new possibilities.
+The first draft of this book was produced in 45 days, but then the real work began.
+Henry Carstens, David Dyte, and Dr. Brett Steenbarger provided invaluable guidance
+in the early stages of this project, and helped me to see some of the problems from
+many perspectives. Perry Kaufman provided some good quantitiative insights and critique. Travis Harbauer, you were the best intern imaginable. Being willing to get on a
+train at 10:00 p.m. on a Friday night with a flash drive is far above and beyond the call
+of duty! And Aimin Walsh—how (and why) does someone meticulously proofread a 900page manuscript in a single week while having a real life, a job, and, presumably, sleeping
+sometime in between? My mother, Lila Grimes, persevered in reading and editing early
+versions of this manuscript, a difficult task but a valuable perspective from someone
+not familiar with the subject matter. Thank you also to my small army of interns who
+proofread, crunched numbers, and made a thousand small improvements to my work:
+Benjamin Shopneck, Ethan Tran, Austin Tran, and Fred Barnes. This project would have
+taken far longer, and the finished work would have been much weaker, without your
+contributions. Thank you so much to all of you.
+I probably would have put off writing this book much longer if not for the encouragement of Mike Bellafiore. His advice, to “make a book that will be a gift to the trading
+community,” guided my actions at every step.
+Last, but certainly not least, Kevin Commins and Meg Freeborn at John Wiley & Sons,
+your work supporting a first-time author was fantastic. Thank you for dealing with my
+questions and for navigating the complexity of this manuscript so well. It has been a joy
+working with you.
+
+F
+
+xv
+
+P1: OTA/XYZ
+JWBT634-back
+
+P2: ABC
+JWBT634-Grimes
+
+May 10, 2012
+
+7:15
+
+Printer: Hamilton Printing
+
+P1: OTA
+JWBT634-c01
+
+JWBT634-Grimes
+
+May 10, 2012
+
+7:17
+
+Printer: Hamilton Printing
+
+PART I
+
+The Foundation of
+Technical Analysis
+
+P1: OTA
+JWBT634-c01
+
+JWBT634-Grimes
+
+May 10, 2012
+
+7:17
+
+Printer: Hamilton Printing
+
+P1: OTA
+JWBT634-c01
+
+JWBT634-Grimes
+
+May 10, 2012
+
+7:17
+
+Printer: Hamilton Printing
+
+CHAPTER 1
+
+The Trader’s Edge
+
+If you would be a real seeker after truth, it is necessary that at least
+once in your life you doubt, as far as possible, all things.
+—René Descartes
+
+here is something fascinating and mesmerizing about price movements in actively
+traded markets; academics, researchers, traders, and analysts are drawn to study
+markets, perhaps captivated as much by the patterns in the market as by the
+promise of financial gain. Many people believe that price changes are random and unpredictable; if this were true, the only logical course of action would be to avoid trading
+and to invest in index funds. This is, in fact, what a significant number of financial advisers recommend their clients do. On the other hand, there are analysts and traders
+who believe that they have some edge over the market, that there is some predictability
+in prices. This camp divides into two groups that historically have been diametrically
+opposed: those who make decisions based on fundamental factors and those who rely
+on technical factors. Fundamental analysts and traders make decisions based on their
+assessment of value, through an analysis of a number of factors such as financial statements, economic conditions, and an understanding of supply/demand factors. Technical traders and analysts make decisions based on information contained in past price
+changes themselves.
+Our work here concerns the latter approach. Few traders make decisions in a vacuum; technical traders may consider fundamental factors, and fundamental traders may
+find that their entries and exits into markets can be better timed with an understanding of the relevant elements of market structure, money flows, and price action. Most
+traders find success with a hybrid approach that incorporates elements from many disciplines, and there are very few purely technical or fundamental decision makers. The key
+distinction, for us, is that technically motivated traders acknowledge the primacy of price
+itself. They know that price represents the end product of the analysis and decision
+
+T
+
+3
+
+P1: OTA
+JWBT634-c01
+
+JWBT634-Grimes
+
+May 10, 2012
+
+4
+
+7:17
+
+Printer: Hamilton Printing
+
+THE FOUNDATION OF TECHNICAL ANALYSIS
+
+making of all market participants, and believe that a careful analysis of price movements
+can sometimes reveal areas of market imbalance that can offer opportunities for superior risk-adjusted profits. Building the tools for that analysis and learning how to apply
+them is the purpose of this book.
+
+DEFINING A TRADING EDGE
+Most of the time, markets are efficient, meaning that all available information is reflected
+in asset prices, and that price is a fair reflection of value. Most of the time, prices fluctuate
+in a more or less random fashion. Though a trader may make some profitable trades in
+this type of environment purely due to random chance, it is simply not possible to profit
+in the long run; nothing the trader can do will have a positive effect on the bottom line as
+long as randomness dominates price changes. In theory, in a true zero-expectancy game,
+it should be possible to trade in a random environment and to break even, but reality is
+different. Trading accounts in the real world suffer under the constant drag of a number
+of trading frictions, transaction costs, errors, and other risks. Together, these create a
+high hurdle that must be overcome in order to break even. It is even possible for a trader
+to work with a positive expectancy system and still lose a significant amount of money
+to the vig.
+Newer traders especially are often drawn to focus on elements of performance psychology and positive thinking. There is an entire industry that caters to struggling traders,
+holding out hope that if they could just get their psychological issues resolved, money
+would flow into their trading accounts. However, this fails to address the core problem,
+which is that most traders are doing things in the market that do not work. Excellent execution, risk management, discipline, and proper psychology are all important elements
+of a good trading plan, but it is all futile if the trading system does not have a positive
+expectancy. These are essential tools through which a trading edge can be applied to the
+market, and without which a trader is unlikely to succeed in the long run. However, none
+of these is a trading edge in itself.
+A positive expectancy results when the trader successfully identifies those moments
+where markets are slightly less random than usual, and places trades that are aligned
+with the slight statistical edges present in those areas. Some traders are drawn to focus on high-probability (high win rate) trading, while others focus on finding trades that
+have excellent reward/risk profiles. Neither of these approaches is better than the other;
+what matters is how these two factors of probability and reward/risk ratio interact. For
+instance, it is possible to be consistently profitable with a strategy that risks many times
+more than what is made, as long as the win rate is high enough, or with a much lower
+percentage of winning trades if the reward/risk ratio compensates. In all cases, the trading problem reduces to a matter of identifying when a statistical edge is present in the
+market, acting accordingly, and avoiding market environments that are more random. To
+do this well, it is essential to have a good understanding of how markets move and also
+some of the math behind expectancy and probability theory.
+
+P1: OTA
+JWBT634-c01
+
+JWBT634-Grimes
+
+May 10, 2012
+
+7:17
+
+Printer: Hamilton Printing
+
+5
+
+The Trader’s Edge
+
+Expected Value
+Expected value (or expectancy) is a term from probability theory that every good trader
+and gambler understands intuitively. For our purposes, we need to define a number of
+scenarios that each have a precisely defined payout (or loss), and we also need to be able
+to quantify the probabilities of each scenario occurring. If we are analyzing actual trading records, this can be as simple as calculating summary statistics for historical trades,
+but the problem is much more complicated on a look-forward basis because we have to
+make assumptions about how closely future conditions are likely to resemble history.
+Furthermore, we also need to make sure that our calculations include every possible
+outcome so that the probabilities sum to 1.0; this is sometimes difficult in real-world
+applications where unforeseeable outlier events may lurk in the future. Leaving these
+practical considerations aside for a moment and focusing on the underlying math, multiplying the payout of each scenario by the probability of each scenario occurring creates
+a probability-weighted average of the payouts, which is also called the expected value.
+The Expected Value Formula
+Formally, for k possible scenarios, each with a payoﬀ of x and associated probability p,
+the expected value E( ) is deﬁned as:
+E(X) = x1 p1 + x2 p2 + · · · + xk pk
+or, in alternate notation:
+E(X) =
+
+k
+
+
+xi pi
+
+i=1
+
+Consider a simplified example where a trader can either make or lose 1 point
+with 50 percent probability of either outcome. In this example, the relevant math is:
+E(X) = .5(1) + .5(−1) = 0. It is important to understand precisely what expectancy tells
+us, which, in the case of a simplified trading or game of chance scenario, is the average
+amount we should win or lose on each trial. Furthermore, and this is very important,
+like many things in the field of probability, expectancy is valid only over a fairly large
+sample size. Even though our trader was playing a zero expectancy game, it is entirely
+possible that the trader could have had many wins or losses in a row, and could actually
+have accumulated a significant gain or loss at some point. In fact, it is very likely this will
+happen because random data tends to have many more strings of runs than most people
+would expect. Over a larger sample, it is likely that the actual value realized will begin to
+converge on the theoretical expected value, but distortions can and do occur.
+The bottom line is that you must have an edge. If you are not trading with a statistical advantage over the market, everything else is futile. Nothing will help. Discipline,
+money management, execution skills, and positive thinking add great value in support
+
+P1: OTA
+JWBT634-c01
+
+JWBT634-Grimes
+
+May 10, 2012
+
+7:17
+
+6
+
+Printer: Hamilton Printing
+
+THE FOUNDATION OF TECHNICAL ANALYSIS
+
+of an actual edge, but they are not edges in themselves. From a statistical standpoint,
+the definition of an edge is simple: can you properly identify entry and exit points in the
+market so that, over a large sample size, the sum of the profit and loss (P&L) from your
+winning trades is greater than the sum of your losing trades? The question then becomes:
+how do you find, develop, refine, and maintain an edge? There are many answers to that
+question; this book shows one possible path.
+
+Where Does the Edge Come From?
+Many of the buying and selling decisions in the market are made by humans, either as
+individuals, in groups (as in an investment committee making a decision), or through
+extension (as in the case of execution algorithms or “algos”). One of the assumptions
+of academic finance is that people make rational decisions in their own best interests,
+after carefully calculating the potential gains and losses associated with all possible scenarios. This may be true at times, but not always. The market does not simply react to
+new information flow; it reacts to that information as it is processed through the lens of
+human emotion. People make emotional decisions about market situations, and sometimes they make mistakes. Information may be overweighted or underweighted in analysis, and everyone, even large institutions, deals with the emotions of fear, greed, hope,
+and regret.
+In an idealized, mathematical random walk world, price would have no memory of
+where it has been in the past; but in the real world, prices are determined by traders
+making buy and sell decisions at specific times and prices. When markets revisit these
+specific prices, the market does have a memory, and we frequently see nonrandom action on these retests of important price levels. People remember the hopes, fears, and
+pain associated with price extremes. In addition, most large-scale buying follows a more
+or less predictable pattern: traders and execution algorithms alike will execute part of
+large orders aggressively, and then will wait to allow the market to absorb the action
+before resuming their executions. The more aggressive the buyers, the further they will
+lift offers and the less they will wait between spurts of buying. This type of action, and
+the memory of other traders around previous inflections, creates slight but predictable
+tendencies in prices.
+There is no mystical, magical process at work here or at any other time in the market. Buying and selling pressure moves prices—only this, and nothing more. If someone
+really wants to buy and to buy quickly, the market will respond to the buying and sellers will raise their offers as they realize they can get a better (higher) price. Similarly,
+when large sell orders hit the market, buyers who were waiting on the bid will get out of
+the way because they realize that extra supply has come into the market. More urgency
+to sell means lower prices. More buying pressure means higher prices. The conclusion
+is logical and unavoidable: buying and selling pressure must, by necessity, leave patterns in the market. Our challenge is to understand how psychology can shape market
+structure and price action, and to find places where this buying and selling pressure creates opportunities in the form of nonrandom price action.
+
+P1: OTA
+JWBT634-c01
+
+JWBT634-Grimes
+
+May 10, 2012
+
+7:17
+
+Printer: Hamilton Printing
+
+The Trader’s Edge
+
+7
+
+The Holy Grail
+This is important. In fact, it is the single most important point in technical analysis—the
+holy grail, if you will. Every edge we have, as technical traders, comes from an imbalance of buying and selling pressure. That’s it, pure and simple. If we realize this and
+if we limit our involvement in the market to those points where there is an actual imbalance, then there is the possibility of making profits. We can sometimes identify these
+imbalances through the patterns they create in prices, and these patterns can provide
+actual points around which to structure and execute trades. Be clear on this point: we do
+not trade patterns in markets—we trade the underlying imbalances that create those patterns. There is no holy grail in trading, but this knowledge comes close. To understand
+why this is so important, it is necessary to first understand what would happen if we tried
+to trade in a world where price action was purely random.
+
+FINDING AND DEVELOPING YOUR EDGE
+The process of developing and refining your edge in the market is exactly that: an ongoing process. This is not something you do one time; it is an iterative process that begins
+with ideas, progressing to distilling those ideas to actionable trading systems, and then
+monitoring the results. Midcourse corrections are to be expected, and dramatic retooling, especially at the beginning, is common. It is necessary to monitor ongoing performance as markets evolve, and some edges will decay over time. To be successful as an
+individual discretionary trader means committing to this process. Trading success, for
+the discretionary trader, is a dynamic state that will fluctuate in response to a multitude
+of factors.
+
+Why Small Traders Can Make Money
+This is an obvious issue, but one that is often ignored. The argument of many academics
+is that you can’t make money trading; your best bet is to put your money in a diversified
+fund and reap the baseline drift compounded over many years. (For most investors, this
+is not a bad plan for at least a portion of their portfolios.) Even large, professionally managed funds have a very difficult time beating the market, so why should you be able to do
+so, sitting at home or in your office without any competitive or informational advantage?
+You are certainly not the best-capitalized player in the arena, and, in a field that attracts
+some of the best and brightest minds in the world, you are unlikely to be the smartest.
+You also will not win by sheer force of will and determination. Even if you work harder
+than nearly anyone else, a well-capitalized firm could hire 20 of you and that is what you
+are competing against. What room is there for the small, individual trader to make profits
+in the market?
+The answer, I think, is simple but profound: you can make money because you are
+not playing the same game as these other players. One reason the very large funds have
+
+P1: OTA
+JWBT634-c01
+
+8
+
+JWBT634-Grimes
+
+May 10, 2012
+
+7:17
+
+Printer: Hamilton Printing
+
+THE FOUNDATION OF TECHNICAL ANALYSIS
+
+trouble beating the market is that they are so large that they are the market. Many
+of these firms are happy to scrape out a few incremental basis points on a relative basis, and they do so through a number of specialized strategies. This is probably not how
+you intend to trade. You probably cannot compete with large institutions on fundamental work. You probably cannot compete with HFTs and automated trading programs on
+speed, nor can you compete with the quant firms that hire armies of PhDs to scour every
+conceivable relationship between markets.
+This is all true, but you also do not have the same restrictions that many of these
+firms do: you are not mandated to have any specific exposures. In most markets, you
+will likely experience few, if any, liquidity or size issues; your orders will have a minimal
+(but still very real) impact on prices. Most small traders can be opportunistic. If you
+have the skills, you can move freely among currencies, equities, futures, and options,
+using outright or spread strategies as appropriate. Few institutional investors enjoy these
+freedoms. Last, and perhaps most significantly, you are free to target a time frame that is
+not interesting to many institutions and not accessible to some.
+One solution is to focus on the three-day to two-week swings, as many swing traders
+do. First, this steps up out of the noise created by the HFTs and algos. Many large firms,
+particularly those that make decisions on fundamental criteria, avoid short time frames
+altogether. They may enter and exit positions over multiple days or weeks; your profits
+and losses over a few days are inconsequential to them. Rather than compete directly,
+play a different game and target a different time frame. As Sun Tzu wrote in the Art
+of War: “Tactics are like unto water; for water in its natural state runs away from high
+places and hastens downward . . . avoid what is strong and strike at what is weak.”
+
+GENERAL PRINCIPLES OF CHART READING
+Charts are powerful tools for traders, but it is important to think deeply about what a
+chart is and what it represents. Though it is possible to trade by focusing on simple chart
+patterns, this approach also misses much of the richness and depth of analysis that are
+available to a skilled chart reader. Top-level trading combines traditional left brain skills
+of logic, math, and analytical thinking with the intuitive, inductive skills of right brain
+thinking. Charts speak directly to the right brain, whose native language is pictures and
+images. Part of your edge as a discretionary trader comes from integrating these two
+halves of your being; charts are a powerful tool that can facilitate this integration and
+foster the growth of intuition.
+Modern software packages are a mixed blessing for traders. On one hand, they have
+greatly increased the scope and breadth of our vision. It is not unusual for a modern
+trader to examine 400 or 500 charts in the course of a trading day, sometimes more
+than once, quickly assessing the character of a market or a set of related markets. This
+would not have been possible in the precomputer era, when charts had to be laboriously drawn and updated by hand. However, charting software also encourages some
+potentially harmful habits. It is so easy to add various plots and indicators to charts and
+
+P1: OTA
+JWBT634-c01
+
+JWBT634-Grimes
+
+May 10, 2012
+
+7:17
+
+Printer: Hamilton Printing
+
+9
+
+The Trader’s Edge
+
+to tweak and change settings and time frames that some traders are forever experimenting and searching for the holy grail of technical indicators. Other traders bury price bars
+behind a barrage of moving averages and other indicators, thinking that complexity will
+lead to better trading results. Simplicity is often better than complexity. A chart is nothing more than a tool to display market data in a structured format. Once traders learn
+to read the message of the market, they can understand the psychological tone and the
+balance of buying and selling pressure at any point.
+When it comes to chart setup, there is no one right way, but I will share my approach.
+Everything I do comes from an emphasis on clarity and consistency. Clean charts put the
+focus where it belongs: on the price bars and the developing market structure. Tools that
+highlight and emphasize the underlying market’s structure are good; anything that detracts from that focus is bad. When you see a chart, you want the price bars (or candles)
+to be the first and most important thing your eye is drawn to; any calculated measure is
+only a supplement or an enhancement. Consistency is also very important, for two separate reasons. First, consistency reduces the time required to orient between charts. It is
+not unusual for me to scan 500 charts in a single sitting, and I can effectively do this by
+spending a little over a second on each chart. This is possible only because every one of
+my charts has the same layout and I can instantly orient and drill down to the relevant
+information. Consistency is also especially important for the developing trader because
+part of the learning process is training your eye to process data a certain way. If you are
+forever switching formats, this learning curve becomes much longer and steeper, and the
+development of intuition will be stymied. Keep the same format between all markets and
+time frames, and keep the setup of all of your charts as consistent as possible.
+Chart Scaling: Linear versus Log
+The one exception to the principle of keeping charts consistent might be in the case of
+very long-term charts spanning multiple years, or shorter-term charts in which an asset
+has greatly increased in value (by over 100 percent). In these cases, the vertical axis of
+the chart should be scaled logarithmically (called “semi-log” in some charting packages)
+to better reﬂect the growth rate of the market. The idea behind a log scale chart is that
+the same vertical distance always represents the same percentage growth regardless of
+location on the axis.
+On a very long-term chart, linearly scaled charts will often make price changes at
+lower price levels so small that they disappear and they are completely dwarfed by price
+changes that happened at higher levels. The linear scale also magniﬁes the importance
+of those higher-level price changes, making them seem more violent and signiﬁcant than
+they actually were. Compare Figure 1.1 and Figure 1.2, two charts of the long-term history
+of the Dow Jones Industrial Average (DJIA), especially noticing the diﬀerences between the
+two charts at the beginning and end of the series. They seem to tell completely diﬀerent
+stories. The ﬁrst chart shows a ﬂat and uninteresting beginning followed by violent swings
+
+(Continued )
+
+P1: OTA
+JWBT634-c01
+
+JWBT634-Grimes
+
+10
+
+May 10, 2012
+
+7:17
+
+Printer: Hamilton Printing
+
+THE FOUNDATION OF TECHNICAL ANALYSIS
+
+FIGURE 1.1 Nothing Seems to Matter Before 1985: DJIA on a Linear Scale
+
+FIGURE 1.2 Investors’ Actual Experiences: DJIA on a Log Scale
+
+P1: OTA
+JWBT634-c01
+
+JWBT634-Grimes
+
+May 10, 2012
+
+The Trader’s Edge
+
+7:17
+
+Printer: Hamilton Printing
+
+11
+
+near the right edge of the chart, while the second, the log scale chart, shows more consistent swings throughout. Over this long history, the log scale chart is a much more accurate
+representation of what market participants would have experienced at any point on the
+chart. Remember, as a rule of thumb, there are two times when log scale charts should
+be used: any time you have greater than a 100 percent price increase on a chart, and for
+any chart showing more than two years of data, whether on daily, weekly, or monthly time
+frames.
+
+Choosing Time Frames
+Discretionary traders must clearly choose and define the time frame within which they
+will trade, and this choice of time frames is tied into deeper questions of personality
+and trading style. Most of the trading ideas and principles we examine in this book can
+be applied to all markets and all time frames, with some adjustments, but most traders
+will probably find themselves best suited to a specific set of markets and time frames.
+Traders switching time frames or asset classes will usually undergo a painful adjustment
+period while they figure out how to apply their tools in the new context. For now, let’s
+leave these important considerations behind and focus on only the mechanical issues of
+setting up charts to cover multiple time frames. In the end, your charts must be a tool
+that serves your trading style, not the other way around.
+Many authors have written about the advantages of combining multiple time frames.
+Multiple time frames can provide context for and inform patterns on a single time frame;
+skilled use of multiple time frames allows traders to better manage risk and to increase
+the expectancy of their trading plans. Nearly all technical traders consider action and
+structure in other time frames, though they do this in a variety of ways. Some traders are
+able to infer this information from a single chart, while many others prefer to actually
+look at multiple charts of the same market with each chart showing a different time
+frame. In a scheme like this, the primary time frame of focus is called the trading time
+frame (TTF). A higher time frame (HTF) chart provides a bigger-picture perspective,
+while a lower time frame (LTF) chart is usually used to find precise entry points. Other
+variations, with up to five or six charts, are possible, and there are many traders who
+use only a pair of charts. Last, though the term time frame seems to imply that the xaxis of the chart will be a time scale (minutes, hours, days, etc.), the same proportional
+relationships can be applied to tick, volume, or any other activity-based axis scale on
+the x-axis.
+In general, time frames should be related to each other by a factor of 3 to 5. There
+is no magic in these ratios, but the idea is that each time frame should provide new information without loss of resolution or unnecessary repetition. For instance, if a trader
+is watching a 30-minute chart, a 5- or 10-minute chart probably provides new information about what is going on inside each 30-minute bar, whereas a 1-minute chart would
+omit significant information. Using a 20-minute chart in conjunction with a 30-minute
+chart probably adds no new information, as the two charts will be very similar. One
+lesser-known relationship is that all vertical distances on charts scale with the square
+
+P1: OTA
+JWBT634-c01
+
+JWBT634-Grimes
+
+May 10, 2012
+
+12
+
+7:17
+
+Printer: Hamilton Printing
+
+THE FOUNDATION OF TECHNICAL ANALYSIS
+
+root of the ratio of the time frames. This has implications for risk management, profit
+targets, stops, and volatility on each time frame. For instance, if a trader has been trading a system on 5-minute charts with $0.25 stops and wishes to transfer that 
+to 30-minute
+charts, the stops will probably need to be adjusted to about $0.61 ($0.25 × 30/5). This
+relationship does not hold exactly in all markets and all time frames, but it is a good rule
+of thumb and can give some insight into the risks and rewards of other time frames.
+The rule of consistency also applies to choice of time frames. Once you have settled
+on a trading style and time frame, be slow to modify it unless you have evidence that it is
+not working. This story will be told with the most clarity and power in a consistent time
+frame. In addition, if you catch yourself wanting to look at a time frame you never look
+at while you are in a losing trade, be very careful. This is often a warning of an impending
+break of discipline.
+
+Bars, Candles, or Other Choices
+Most traders today seem to be focused on using candlestick charts, but the more oldfashioned bar charts should not be overlooked. Both chart types display the same data
+points but in a slightly different format; they have the same information on them, so one
+is not better than the other. The main advantage of bar charts is that they can be cleaner
+visually and it is usually possible to fit more data in the same space because bars are
+thinner than candles. For many traders, the colors of candlestick charts make it easier
+to see the buying and selling pressure in the market, providing another important visual
+cue that helps the trader process the data faster.
+Another issue to consider, particularly with intraday charts, is how much importance
+should be attached to the closing print of each period. Historically, this was the price in
+many markets, and it still has significance in some contexts. Profits and losses (P&Ls),
+margins, and various spreads are calculated off daily settlement prices; exchanges have
+complex procedures for calculating these prices, which are rarely simply the last print of
+the session. However, times are changing. In currencies, most domestic platforms report
+a closing price sometime in the New York afternoon, and we have to wonder just how
+important that price is for the Australian dollar or the yen, whose primary sessions ended
+many hours earlier. As more and more markets go to 24-hour sessions, the importance of
+this daily settlement price will continue to decline. The problem is even more significant
+on intraday bars, bar as closing prices on intraday bars are essentially random samples
+and may differ from platform to platform. If you are trading candlestick patterns, which
+attach great significance to the close, you are trading the patterns you see on your screen.
+If you switched to a different data provider, the data might be time-stamped differently,
+and you would see different patterns. How important can those patterns really be?
+
+INDICATORS
+Indicators are calculated measures that are plotted on price charts, either on top of the
+price bars or in panels above or below the bars. There are many different indicators in
+
+
