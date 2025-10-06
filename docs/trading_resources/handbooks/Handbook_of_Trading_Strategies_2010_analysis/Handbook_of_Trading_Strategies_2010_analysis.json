@@ -1,0 +1,27 @@
+{
+  "document": {
+    "filename": "Handbook_of_Trading_Strategies_2010.pdf",
+    "processed_at": "2025-10-05T16:37:31.990970",
+    "capabilities": {
+      "pdfplumber": true,
+      "pymupdf": true,
+      "tesseract_ocr": true,
+      "poppler_utils": true,
+      "ocrmypdf": true,
+      "qpdf": true
+    }
+  },
+  "content": {
+    "text": {
+      "pymupdf": {
+        "pages": 497,
+        "sample_text": "..."
+      },
+      "poppler": {
+        "sample_text": "\f",
+        "status": "success"
+      }
+    },
+    "metadata": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "document": {
+    "filename": "CFA_Future_Investment_Management_2018.pdf",
+    "processed_at": "2025-10-05T16:37:26.661778",
+    "capabilities": {
+      "pdfplumber": true,
+      "pymupdf": true,
+      "tesseract_ocr": true,
+      "poppler_utils": true,
+      "ocrmypdf": true,
+      "qpdf": true
+    }
+  },
+  "content": {
+    "text": {
+      "pymupdf": {
+        "pages": 138,
+        "sample_text": "THE FUTURE OF \nINVESTMENT \nMANAGEMENT\nRonald N. Kahn\n..."
+      },
+      "poppler": {
+        "sample_text": "THE FUTURE OF\nINVESTMENT\nMANAGEMENT\n\nRonald N. Kahn\n\n\f",
+        "status": "success"
+      }
+    },
+    "metadata": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "document": {
+    "filename": "Python_Algorithmic_Trading_TPQ.pdf",
+    "processed_at": "2025-10-05T16:37:21.244990",
+    "capabilities": {
+      "pdfplumber": true,
+      "pymupdf": true,
+      "tesseract_ocr": true,
+      "poppler_utils": true,
+      "ocrmypdf": true,
+      "qpdf": true
+    }
+  },
+  "content": {
+    "text": {
+      "pymupdf": {
+        "pages": 31,
+        "sample_text": "Python for Algorithmic Trading\nThe Python Quants GmbH <training@tpq.io>\n..."
+      },
+      "poppler": {
+        "sample_text": "Python for Algorithmic Trading\nThe Python Quants GmbH <training@tpq.io>\n\n\f",
+        "status": "success"
+      }
+    },
+    "metadata": {}
+  }
+}
