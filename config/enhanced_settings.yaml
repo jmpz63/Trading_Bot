@@ -118,14 +118,15 @@ advanced:
   timeframes: ["1m", "5m", "15m"]
   
   # Paper trading mode
-  paper_trading: false               # Set to true for testing
+  paper_trading: true                # Set to true for testing
+  paper_starting_balance: 1000.0     # Starting with $1000
 
 # Exchange-Specific Settings
 exchanges:
   kraken:
     api_key: ""                      # Add your API key
     api_secret: ""                   # Add your API secret
-    sandbox: false                   # Set to true for testing
+    sandbox: true                    # Set to true for testing
     
     # Kraken-specific settings
     minimum_order_size: 0.0001       # BTC minimum
