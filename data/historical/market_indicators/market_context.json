@@ -1,0 +1,26 @@
+{
+  "SPY": {
+    "name": "S&P 500",
+    "current_price": 669.2100219726562,
+    "weekly_return": 0.8332373068200116,
+    "monthly_return": 3.4269939553100537,
+    "yearly_return": 18.214577013664226,
+    "volatility": 19.483692218854806
+  },
+  "QQQ": {
+    "name": "NASDAQ",
+    "current_price": 603.1799926757812,
+    "weekly_return": 0.7432419207648921,
+    "monthly_return": 4.320355984404034,
+    "yearly_return": 24.442939250633856,
+    "volatility": 23.452243294905635
+  },
+  "TLT": {
+    "name": "20+ Year Treasury",
+    "current_price": 89.37999725341797,
+    "weekly_return": 0.06818862050397279,
+    "monthly_return": -0.05447208572209039,
+    "yearly_return": -2.327489459024279,
+    "volatility": 13.33356398941998
+  }
+}

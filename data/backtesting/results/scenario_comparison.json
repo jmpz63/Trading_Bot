@@ -1,0 +1,38 @@
+{
+  "aggressive_10pct": {
+    "total_return": 0.10473726905441731,
+    "final_capital": 1104.7372690544173,
+    "win_rate": 0.564,
+    "max_drawdown": 0.023065983752533614,
+    "total_trades": 1000,
+    "winning_trades": 564,
+    "avg_trade_return": 0.0010025461573605443
+  },
+  "moderate_5pct": {
+    "total_return": 0.013729535764370667,
+    "final_capital": 1013.7295357643707,
+    "win_rate": 0.564,
+    "max_drawdown": 0.014034690225783252,
+    "total_trades": 1000,
+    "winning_trades": 564,
+    "avg_trade_return": 0.00027484525695791194
+  },
+  "conservative_2pct": {
+    "total_return": 0.008437395978515496,
+    "final_capital": 1008.4373959785155,
+    "win_rate": 0.564,
+    "max_drawdown": 0.003552600280769906,
+    "total_trades": 1000,
+    "winning_trades": 564,
+    "avg_trade_return": 0.00042064367818700347
+  },
+  "high_frequency": {
+    "total_return": -0.010002376190517907,
+    "final_capital": 989.9976238094821,
+    "win_rate": 0.564,
+    "max_drawdown": 0.01119502801815447,
+    "total_trades": 1000,
+    "winning_trades": 564,
+    "avg_trade_return": -0.0003348858942492764
+  }
+}
