@@ -21,9 +21,11 @@
       "duration_hours": 0.0205476885371738,
       "total_return_pct": 0.0,
       "trades_executed": 0,
-      "status": "indexed",
+      "status": "completed",
       "learning_file": "/home/arm1/Trade_Bot/docs/lessons/learning_20251006_134829.json",
-      "performance_doc": "/home/arm1/Trade_Bot/docs/performance/performance_20251006_134829.md"
+      "performance_doc": "/home/arm1/Trade_Bot/docs/performance/performance_20251006_134829.md",
+      "git_committed": true,
+      "git_pushed": true
     }
   ]
 }
