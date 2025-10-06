@@ -1,0 +1,5 @@
+# Trading Bot Knowledge Index
+
+## Recent Sessions
+- [20251006_133928](performance/performance_20251006_133928.md) - 2025-10-06
+

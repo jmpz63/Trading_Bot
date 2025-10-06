@@ -27,8 +27,8 @@ class ContinuousPaperTrading:
         self.min_position_value = 75.0
         self.max_position_pct = 0.20  # 20% max position
         self.fee_rate = 0.0016
-        self.max_spread_pct = 0.0008  # 0.08%
-        self.cooldown_minutes = 10
+        self.max_spread_pct = 0.0006  # 0.06% - Even tighter for better entries
+        self.cooldown_minutes = 15  # Longer cooldown for quality trades
         
         # Session tracking
         self.trades_today = 0
@@ -101,7 +101,8 @@ class ContinuousPaperTrading:
         if len(self.price_history) >= 14:
             recent_changes = [
                 self.price_history[i] - self.price_history[i-1] 
-                for i in range(-14, 0)
+                for i in range(len(self.price_history) - 14, len(self.price_history))
+                if i > 0
             ]
             gains = [change for change in recent_changes if change > 0]
             losses = [-change for change in recent_changes if change < 0]
@@ -151,41 +152,72 @@ class ContinuousPaperTrading:
         buy_conditions = []
         sell_conditions = []
         
-        # RSI conditions
-        if self.rsi_value < 30:
+        # RSI conditions (tighter thresholds for quality)
+        if self.rsi_value < 25:  # Very oversold
+            buy_conditions.append('RSI_EXTREMELY_OVERSOLD')
+        elif self.rsi_value < 30:  # Regular oversold
             buy_conditions.append('RSI_OVERSOLD')
-        elif self.rsi_value > 70:
+        elif self.rsi_value > 75:  # Very overbought
+            sell_conditions.append('RSI_EXTREMELY_OVERBOUGHT')
+        elif self.rsi_value > 70:  # Regular overbought
             sell_conditions.append('RSI_OVERBOUGHT')
         
-        # Momentum conditions
-        if self.momentum > 0.5:
+        # Momentum conditions (stronger momentum required)
+        if self.momentum > 1.0:  # Strong positive momentum
+            buy_conditions.append('STRONG_MOMENTUM')
+        elif self.momentum > 0.5:
             buy_conditions.append('POSITIVE_MOMENTUM')
+        elif self.momentum < -1.0:  # Strong negative momentum
+            sell_conditions.append('STRONG_NEGATIVE_MOMENTUM')
         elif self.momentum < -0.5:
             sell_conditions.append('NEGATIVE_MOMENTUM')
         
-        # Price action (simulate support/resistance)
-        price_position = random.uniform(0, 1)
-        if price_position < 0.2:
-            buy_conditions.append('NEAR_SUPPORT')
-        elif price_position > 0.8:
-            sell_conditions.append('NEAR_RESISTANCE')
+        # Price trend confirmation
+        if len(self.price_history) >= 5:
+            recent_trend = self.price_history[-1] - self.price_history[-5]
+            if recent_trend > 0 and self.momentum > 0:
+                buy_conditions.append('TREND_CONFIRMATION')
+            elif recent_trend < 0 and self.momentum < 0:
+                sell_conditions.append('DOWNTREND_CONFIRMATION')
         
-        # Volume condition (simulated)
-        if random.random() < 0.4:  # 40% chance of high volume
+        # Price action (simulate support/resistance - more selective)
+        price_position = random.uniform(0, 1)
+        if price_position < 0.15:  # Very near support
+            buy_conditions.append('STRONG_SUPPORT')
+        elif price_position > 0.85:  # Very near resistance
+            sell_conditions.append('STRONG_RESISTANCE')
+        
+        # Volume condition (more selective)
+        volume_strength = random.random()
+        if volume_strength < 0.2:  # 20% chance of exceptional volume
+            if buy_conditions:
+                buy_conditions.append('EXCEPTIONAL_VOLUME')
+            if sell_conditions:
+                sell_conditions.append('EXCEPTIONAL_VOLUME')
+        elif volume_strength < 0.4:  # Additional 20% for high volume
             if buy_conditions:
                 buy_conditions.append('HIGH_VOLUME')
             if sell_conditions:
                 sell_conditions.append('HIGH_VOLUME')
         
-        # Determine signal (need 3+ conditions as per enhanced strategy)
-        if len(buy_conditions) >= 3 and self.btc_balance == 0:
+        # Market structure condition (simulate confluence)
+        if random.random() < 0.15:  # 15% chance of perfect setup
+            if len(buy_conditions) >= 2:
+                buy_conditions.append('MARKET_STRUCTURE_BUY')
+            elif len(sell_conditions) >= 2:
+                sell_conditions.append('MARKET_STRUCTURE_SELL')
+        
+                # Determine signal (need 4+ conditions for high-quality trades)
+        min_conditions = 4  # High bar for quality over quantity
+        
+        if len(buy_conditions) >= min_conditions and self.btc_balance == 0:
             return {
                 'action': 'BUY',
                 'confidence': min(len(buy_conditions) / 5.0, 1.0),
                 'spread_pct': spread_pct,
                 'conditions': buy_conditions
             }
-        elif len(sell_conditions) >= 3 and self.btc_balance > 0:
+        elif len(sell_conditions) >= min_conditions and self.btc_balance > 0:
             return {
                 'action': 'SELL', 
                 'confidence': min(len(sell_conditions) / 5.0, 1.0),
@@ -204,15 +236,19 @@ class ContinuousPaperTrading:
         # Calculate position size (enhanced sizing)
         portfolio_value = self.current_balance + (self.btc_balance * self.current_btc_price)
         
-        # Position size based on confidence and limits
+        # Conservative position sizing for quality trades
+        # Higher confidence = larger position (but still conservative)
+        base_position_pct = 0.10  # Start with 10% max
+        confidence_multiplier = min(confidence * 2.0, 1.5)  # Cap at 1.5x
+        
         position_pct = min(
-            self.max_position_pct,
-            confidence * self.max_position_pct * 1.5  # Scale with confidence
+            base_position_pct * confidence_multiplier,
+            self.max_position_pct
         )
         
         position_value = max(
             portfolio_value * position_pct,
-            self.min_position_value
+            self.min_position_value * 1.2  # Slightly larger minimum for better profit potential
         )
         
         # Don't exceed available balance

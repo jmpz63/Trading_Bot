@@ -1,0 +1,21 @@
+{
+  "session_id": "20251006_133928",
+  "timestamp": "2025-10-06T13:39:28.436552",
+  "insights": {
+    "total_data_points": 17,
+    "price_range": {
+      "min": 125422.45,
+      "max": 125490.85
+    },
+    "avg_spread": 7.972696183304351e-05,
+    "regime_distribution": {
+      "ranging": 17
+    },
+    "signal_distribution": {
+      "BUY": 1,
+      "HOLD": 16
+    },
+    "volatility_stats": {}
+  },
+  "status": "learned"
+}
