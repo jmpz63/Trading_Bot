@@ -1,0 +1,133 @@
+# Enhanced Trading Bot Configuration
+# Addresses performance issues and implements better risk management
+
+# Trading Configuration
+trading:
+  # Exchange settings
+  exchange: "kraken"
+  symbol: "BTCUSD"
+  
+  # Enhanced Risk Management
+  risk_management:
+    max_portfolio_risk: 0.015          # Reduce to 1.5% per trade
+    max_position_size: 0.20            # Max 20% of portfolio per position
+    min_position_value: 75.0           # Minimum $75 per trade (higher than current ~$27)
+    fee_rate: 0.0016                   # 0.16% Kraken taker fee
+    min_profit_target: 0.008           # 0.8% minimum profit target
+    max_spread_tolerance: 0.0008       # 0.08% maximum spread
+    daily_trade_limit: 15              # Reduce from 100 to 15 trades per day
+    win_rate_threshold: 0.25           # 25% minimum win rate before reducing activity
+    
+  # Order Management
+  order_management:
+    max_spread_pct: 0.0008             # 0.08% max spread for trading
+    limit_offset_pct: 0.0003           # 0.03% offset for smart limits
+    order_timeout_seconds: 45          # 45 second timeout
+    retry_attempts: 2                  # Reduce retries
+    
+  # Strategy Configuration
+  strategy:
+    name: "improved_momentum"
+    type: "ImprovedMomentumStrategy"
+    
+    # Strategy Parameters
+    rsi_oversold: 25                   # More aggressive oversold level
+    rsi_overbought: 75                 # More aggressive overbought level
+    min_spread_threshold: 0.0008       # Don't trade if spread > 0.08%
+    momentum_period: 12                # Shorter period for faster signals
+    volume_threshold: 1.5              # Higher volume requirement
+    cooldown_minutes: 10               # 10 minute cooldown between signals
+    
+    # Signal Requirements (need 3+ conditions)
+    min_conditions_buy: 3
+    min_conditions_sell: 3
+    min_confidence: 0.6                # 60% minimum confidence
+
+# Data Configuration  
+data:
+  # Market data settings
+  update_interval: 30                  # 30 second updates
+  history_length: 100                  # Keep 100 periods
+  
+  # Real-time data
+  websocket_enabled: true
+  orderbook_depth: 10
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  file: "logs/trading_bot.log"
+  max_file_size: "10MB"
+  backup_count: 5
+  
+  # Enhanced logging for debugging
+  log_trades: true
+  log_signals: true
+  log_risk_decisions: true
+
+# Performance Monitoring
+monitoring:
+  # Performance thresholds
+  max_drawdown: 0.10                   # 10% max drawdown
+  min_sharpe_ratio: 0.5                # Minimum Sharpe ratio
+  
+  # Auto-stop conditions
+  consecutive_losses: 8                # Stop after 8 consecutive losses
+  daily_loss_limit: 0.05              # Stop if daily loss exceeds 5%
+  
+  # Reporting
+  daily_summary: true
+  weekly_analysis: true
+  
+# Backtesting Configuration
+backtesting:
+  start_date: "2024-01-01"
+  end_date: "2024-12-31"
+  initial_capital: 1000.0
+  
+  # Enhanced metrics
+  calculate_sharpe: true
+  calculate_sortino: true
+  calculate_max_drawdown: true
+  
+# Notifications (Optional)
+notifications:
+  enabled: false
+  email:
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    username: ""
+    password: ""
+    to_address: ""
+    
+  # Alert conditions
+  alerts:
+    large_loss: 0.02                   # Alert on 2%+ loss
+    consecutive_losses: 5              # Alert after 5 losses
+    daily_loss: 0.03                   # Alert on 3%+ daily loss
+
+# Advanced Features
+advanced:
+  # Machine learning (future feature)
+  ml_enabled: false
+  
+  # Portfolio optimization
+  portfolio_rebalancing: false
+  
+  # Multi-timeframe analysis
+  timeframes: ["1m", "5m", "15m"]
+  
+  # Paper trading mode
+  paper_trading: false               # Set to true for testing
+
+# Exchange-Specific Settings
+exchanges:
+  kraken:
+    api_key: ""                      # Add your API key
+    api_secret: ""                   # Add your API secret
+    sandbox: false                   # Set to true for testing
+    
+    # Kraken-specific settings
+    minimum_order_size: 0.0001       # BTC minimum
+    price_precision: 1               # Price decimal places
+    quantity_precision: 8            # Quantity decimal places
