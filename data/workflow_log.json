@@ -8,9 +8,22 @@
       "duration_hours": 0.0244209580288993,
       "total_return_pct": -0.03120777372481598,
       "trades_executed": 1,
-      "status": "indexed",
+      "status": "completed",
       "learning_file": "/home/arm1/Trade_Bot/docs/lessons/learning_20251006_133928.json",
-      "performance_doc": "/home/arm1/Trade_Bot/docs/performance/performance_20251006_133928.md"
+      "performance_doc": "/home/arm1/Trade_Bot/docs/performance/performance_20251006_133928.md",
+      "git_committed": true,
+      "git_pushed": true
+    },
+    {
+      "timestamp": "2025-10-06T13:48:29.822562",
+      "session_id": "20251006_134829",
+      "log_file": "data/logs/elite_bot_20251006_134715.json",
+      "duration_hours": 0.0205476885371738,
+      "total_return_pct": 0.0,
+      "trades_executed": 0,
+      "status": "indexed",
+      "learning_file": "/home/arm1/Trade_Bot/docs/lessons/learning_20251006_134829.json",
+      "performance_doc": "/home/arm1/Trade_Bot/docs/performance/performance_20251006_134829.md"
     }
   ]
 }

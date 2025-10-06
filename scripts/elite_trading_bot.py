@@ -688,17 +688,29 @@ async def main():
     print("🚀 Launching Elite Trading Bot...")
     print("💡 This bot combines proven features with enhanced capabilities")
     
-    try:
-        duration_input = input("\n⏱️ Duration in minutes (default 60, use 1440 for 24 hours): ")
-        duration = int(duration_input) if duration_input else 60
-    except:
-        duration = 60
+    # Check for command line argument for duration
+    if len(sys.argv) > 1:
+        try:
+            duration = int(sys.argv[1])
+        except:
+            duration = 60
+    else:
+        try:
+            duration_input = input("\n⏱️ Duration in minutes (default 60, use 1440 for 24 hours): ")
+            duration = int(duration_input) if duration_input else 60
+        except (EOFError, KeyboardInterrupt):
+            duration = 60
     
-    if duration >= 60:
-        confirm = input(f"\n⚠️ You're about to run for {duration/60:.1f} hours. Continue? (y/N): ")
-        if confirm.lower() != 'y':
-            print("Cancelled.")
-            return
+    if duration >= 60 and len(sys.argv) <= 1:  # Only ask for confirmation in interactive mode
+        try:
+            confirm = input(f"\n⚠️ You're about to run for {duration/60:.1f} hours. Continue? (y/N): ")
+            if confirm.lower() != 'y':
+                print("Cancelled.")
+                return
+        except (EOFError, KeyboardInterrupt):
+            print("\nRunning in non-interactive mode...")
+    elif duration >= 60:
+        print(f"🚀 Starting automated {duration/60:.1f} hour trading session...")
     
     bot = EliteTradingBot()
     await bot.start_elite_trading(duration)
