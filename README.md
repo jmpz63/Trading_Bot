@@ -1,7 +1,60 @@
-# 📈 Trade_Bot Project - Comprehensive Trading Bot Development Framework
+# 📈 Elite Trading Bot - 24/7 Automated Trading System
 
 ## 🎯 **Project Overview**
-Advanced algorithmic trading bot with market analysis, risk management, and automated execution capabilities.
+Professional algorithmic trading bot with real-time market data, sophisticated risk management, and APM workflow integration. Currently running 24/7 with live Kraken API.
+
+## 🚀 **QUICK STATUS COMMANDS**
+
+### **Check if Bot is Running:**
+```bash
+# Quick status check
+./check_bot_status.sh
+
+# Manual process check
+ps aux | grep elite_trading_bot | grep -v grep
+
+# Get Process ID
+pgrep -f elite_trading_bot
+```
+
+### **Monitor Bot Performance:**
+```bash
+# Interactive dashboard (recommended)
+python3 monitor_elite_bot.py
+
+# Live log monitoring
+tail -f elite_bot_24_7.log
+
+# Recent log entries
+tail -20 elite_bot_24_7.log
+
+# Latest trading data
+tail -1 data/logs/elite_bot_*.json
+
+# Count today's data points
+wc -l data/logs/elite_bot_$(date +%Y%m%d)*.json
+```
+
+### **Portfolio & Trading Status:**
+```bash
+# Quick portfolio check (if jq installed)
+tail -1 data/logs/elite_bot_*.json | jq '.portfolio_value,.btc_balance,.cash_balance'
+
+# Manual portfolio check
+tail -1 data/logs/elite_bot_*.json | grep -o '"portfolio_value":[^,]*'
+```
+
+### **Control Commands:**
+```bash
+# Start 24/7 bot (7 days = 10080 minutes)
+nohup python3 scripts/elite_trading_bot.py 10080 > elite_bot_24_7.log 2>&1 &
+
+# Stop bot
+pkill -f elite_trading_bot
+
+# Restart bot
+pkill -f elite_trading_bot && sleep 2 && nohup python3 scripts/elite_trading_bot.py 10080 > elite_bot_24_7.log 2>&1 &
+```
 
 ## 📁 **Project Structure**
 ```
@@ -12,39 +65,26 @@ Trade_Bot/
 │   ├── settings.yaml          # Main configuration
 │   ├── exchanges.yaml         # Exchange API configurations
 │   └── strategies.yaml        # Trading strategy parameters
-├── src/                       # Source code
-│   ├── __init__.py
-│   ├── bot/                   # Core bot functionality
-│   │   ├── __init__.py
-│   │   ├── trading_bot.py     # Main bot class
-│   │   ├── order_manager.py   # Order execution
-│   │   └── portfolio.py       # Portfolio management
-│   ├── data/                  # Data handling
-│   │   ├── __init__.py
-│   │   ├── market_data.py     # Real-time market data
-│   │   ├── historical_data.py # Historical data fetching
-│   │   └── data_storage.py    # Database operations
-│   ├── strategies/            # Trading strategies
-│   │   ├── __init__.py
-│   │   ├── base_strategy.py   # Base strategy class
-│   │   ├── momentum.py        # Momentum trading
-│   │   ├── mean_reversion.py  # Mean reversion strategy
-│   │   └── arbitrage.py       # Arbitrage opportunities
-│   ├── analysis/              # Market analysis tools
-│   │   ├── __init__.py
-│   │   ├── technical_analysis.py  # Technical indicators
-│   │   ├── fundamental_analysis.py # Fundamental analysis
-│   │   └── sentiment_analysis.py  # Market sentiment
-│   ├── risk/                  # Risk management
-│   │   ├── __init__.py
-│   │   ├── risk_manager.py    # Risk assessment
-│   │   ├── position_sizing.py # Position size calculation
-│   │   └── stop_loss.py       # Stop loss mechanisms
-│   └── utils/                 # Utility functions
-│       ├── __init__.py
-│       ├── logger.py          # Logging system
-│       ├── notifications.py   # Alert system
-│       └── helpers.py         # General utilities
+├── scripts/                   # Active Trading Scripts
+│   ├── elite_trading_bot.py   # 🚀 MAIN 24/7 TRADING BOT
+│   ├── monitor_elite_bot.py   # Real-time monitoring dashboard
+│   └── [legacy bots]          # Archived previous versions
+├── apm_workflow.py           # APM knowledge management integration
+├── check_bot_status.sh       # ⚡ Quick status checker
+├── data/                     # Trading Data & Logs
+│   ├── logs/                 # Real-time trading logs (JSON)
+│   ├── performance/          # APM performance reports
+│   └── session_summaries.json # Session tracking
+├── docs/                     # Documentation
+│   ├── performance/          # Auto-generated performance reports
+│   ├── lessons/              # AI learning reports
+│   └── TRADING_INDEX.md      # Knowledge base index
+├── src/                      # Core Modules
+│   ├── risk/
+│   │   └── quantum_risk_manager.py  # Advanced risk management
+│   └── strategies/           # Trading strategies (integrated into elite bot)
+├── config/                   # Configuration
+│   └── enhanced_settings.yaml # Bot parameters
 ├── tests/                     # Unit tests
 │   ├── __init__.py
 │   ├── test_bot/
@@ -128,15 +168,28 @@ Trade_Bot/
 - Strategy performance comparison
 - Real-time P&L monitoring
 
-## 🔗 **Integration with APM System**
-This project integrates with the APM knowledge management system for:
-- Automated documentation and learning
-- Engineering expertise development
-- Project progress tracking
-- Knowledge expansion and sharing
+## 🤖 **CURRENT STATUS: OPERATIONAL**
+
+✅ **Elite Trading Bot**: Running 24/7 with PID monitoring  
+✅ **APM Workflow**: Automated Track→Learn→Document→Index→Push  
+✅ **Live Data**: Kraken API integration with 5-second updates  
+✅ **Risk Management**: Multi-level safety systems active  
+
+### **Files You Need to Know:**
+- 📊 `./check_bot_status.sh` - **Your go-to status checker**
+- 📈 `python3 monitor_elite_bot.py` - **Interactive dashboard** 
+- 🚀 `scripts/elite_trading_bot.py` - **Main trading engine**
+- 📋 `FILE_STATUS.md` - **File organization guide**
+
+## 🔗 **APM Integration Active**
+- ✅ **TRACK**: Automatic session recording
+- ✅ **LEARN**: AI-powered data analysis  
+- ✅ **DOCUMENT**: Performance report generation
+- ✅ **INDEX**: Knowledge base updates
+- ✅ **PUSH**: Git integration with auto-commits
 
 ---
 
-**Next Steps**: Run the setup script to initialize the complete project structure with all files and configurations.
+**💎 Elite Trading Bot is LIVE and collecting data every 5 seconds!**
 
-*Created: 2025-10-04 - Trading Bot Development Framework*
+*Last Updated: 2025-10-06 - Elite Trading Bot Operational*
